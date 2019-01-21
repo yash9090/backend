@@ -8,7 +8,7 @@ app.use(cors())
 
 app.use('/restaurant', restaurantRoutes)
 
-app.get('/a',(req,res)=>res.send("s"))
+
 
 const server = app.listen(4000, () => console.info(`Example app listening on port 4000!`))
  
